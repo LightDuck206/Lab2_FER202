@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { TiShoppingCart } from "react-icons/ti";
+import { FaShop } from "react-icons/fa6";
 function Header({ cart }) {
   
 return (
@@ -7,7 +8,7 @@ return (
       <Navbar bg="dark" variant="dark" expand="lg" className="px-4 py-3" style={{ borderBottom: '1px solid #333' }}>
         <Container fluid>
           <Navbar.Brand href="#" style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'serif' }}>
-            SHOP FASHION
+            <FaShop color='white'/>SHOP FASHION
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
